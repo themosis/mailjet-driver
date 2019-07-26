@@ -1,0 +1,24 @@
+{
+    "name": "themosis/mailjet-driver",
+    "description": "An Illuminate/Laravel mail driver for the MailJet service.",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Julien Lambé",
+            "email": "julien@themosis.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/mail": "^5.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Themosis\\MailJet\\": "src/"
+        }
+    }
+}
