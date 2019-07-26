@@ -43,7 +43,7 @@ return [
 
 ### Set the service provider
 
-By default, your application has the `Illuminate\Mail\MailServiceProvicer` defined inside the `config/app.php` file. In order to enable the `mailjet` driver, you need to replace the default service provicer by the one provided by this package, the `Themosis\MailJet\MailServiceProvider` like so:
+By default, your application has the `Illuminate\Mail\MailServiceProvicer` defined inside the `config/app.php` file. In order to enable the `mailjet` driver, you need to replace the default service provider by the one provided by this package, the `Themosis\MailJet\MailServiceProvider` like so:
 
 ```php
 return [
