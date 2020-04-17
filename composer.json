@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "illuminate/mail": "^5.8",
+        "illuminate/mail": "^6.7",
         "mailjet/mailjet-apiv3-php": "^1.4"
     },
     "require-dev": {
